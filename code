@@ -1,0 +1,12 @@
+
+library(maps)
+map("world")
+map("world", regions = "Gabon")
+map("world", xlim = c(10, 25), ylim = c(-5, 15), fill = TRUE, col = "lightblue")
+map("world", xlim = c(8,17), ylim = c(1,14), fill = TRUE, col = "lightblue")
+title("zoom sur le cameroun")
+map("world", xlim = c(13.5, 15.5), ylim = c(9.5, 11.5), fill = TRUE, col = "lightyellow", bg = "lightblue")
+text(14.324, 10.595, labels = "Maroua", pos = 3, col = "red")
+title("zoom sur Maroua - Cameroun")
+
+

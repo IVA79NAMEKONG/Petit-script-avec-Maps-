@@ -21,7 +21,7 @@ library(maps)
 map("world")
 ```
 
-# carte d un pays d afrique (cas du cameroun)
+# carte d un pays d afrique (cas du Gabon)
 ```{r}
 map("world", regions = "Gabon")
 ```
